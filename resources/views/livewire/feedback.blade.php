@@ -49,7 +49,7 @@
                 </div>
                 <div class="form-group">
                     <label for="exampleTextarea" class="mt-4"></label>
-                    <textarea class="form-control @error('comment') is-invalid @enderror" id="exampleTextarea" placeholder="Deixe um comentario!" rows="3" wire:model.live="comment" wire:ignore.self></textarea>
+                    <textarea class="form-control @error('comment') is-invalid @enderror" id="exampleTextarea" placeholder="Deixe um comentario!" rows="3" wire:model.live="comment" ></textarea>
                     @error('comment')
                     <div class="invalid-feedback">
                         {{ $message }}
