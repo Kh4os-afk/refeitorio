@@ -14,5 +14,6 @@ class Feedback extends Model
     protected $fillable = [
         'rating',
         'comment',
+        'codfilial',
     ];
 }

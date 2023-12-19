@@ -8,8 +8,14 @@ use Livewire\Component;
 class Feedback extends Component
 {
     public $rating = 1;
+    public $codfilial;
     #[Rule(['string', 'max:255'])]
     public $comment = ''; // Adicionando um campo para o comentário
+
+    public function mount($filial = 0)
+    {
+        $this->codfilial = $filial;
+    }
 
     public function setRating($value)
     {
@@ -27,6 +33,7 @@ class Feedback extends Component
         \App\Models\Feedback::create([
             'rating' => $this->rating,
             'comment' => $this->comment,
+            'codfilial' => $this->codfilial,
         ]);
 
         $this->reset();

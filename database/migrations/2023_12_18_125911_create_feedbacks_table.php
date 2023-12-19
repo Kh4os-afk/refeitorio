@@ -15,6 +15,7 @@ return new class extends Migration
             $table->id();
             $table->integer('rating');
             $table->string('comment');
+            $table->integer('codfilial');
             $table->timestamps();
         });
     }
