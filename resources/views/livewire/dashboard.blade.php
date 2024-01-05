@@ -2,6 +2,7 @@
     <div class="col-md-12">
         <div class="tile">
             <div class="tile-body">
+                <h3 class="tile-title">Avaliações do Refeitorio</h3>
                 <table id="refeitorio" class="display compact">
                     <thead>
                     <tr class="font-weight-bold">

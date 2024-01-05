@@ -53,7 +53,7 @@
 <main class="app-content">
     <div class="app-title">
         <div>
-            <h1><i class="fa fa-dashboard"></i> Avaliações Refeitorio</h1>
+            <h1><i class="fa fa-book"></i> Avaliações Refeitorio</h1>
             {{--<p>Start a beautiful journey here</p>--}}
         </div>
 

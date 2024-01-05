@@ -31,7 +31,7 @@
                     </div>
                 </div>
                 <div class="form-group btn-container">
-                    <button class="btn btn-primary btn-block" style="background-color: #e2192e; border-color: #e2192e"><i class="fa fa-sign-in fa-lg fa-fw"></i>Entrar</button>
+                    <button class="btn btn-primary btn-block" style="background-color: #2a3049; border-color: #2a3049"><i class="fa fa-sign-in fa-lg fa-fw"></i>Entrar</button>
                 </div>
             </form>
         </div>

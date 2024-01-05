@@ -1,5 +1,5 @@
-<div class="row">
-    <div class="col-md-12">
+<div class="row flex justify-content-center">
+    <div class="col-md-6">
         <div class="tile">
             <form wire:submit="submit">
                 <div class="tile-body">

@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="./style.css">
 </head>
-<body class="app sidebar-mini rtl">
+<body class="app sidebar-mini rtl" style="display: block">
 <!-- Navbar-->
 <header class="app-header"><a class="app-header__logo_guest" href="{{ route('dashboard') }}">Baratão da Carne</a>
 </header>
