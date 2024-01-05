@@ -9,6 +9,7 @@
                         <th>Nota</th>
                         <th>Comentario</th>
                         <th>Filial</th>
+                        <th>Data</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -16,11 +17,13 @@
                         <tr>
                             <td>{{ $feedback->id }}</td>
                             <td>{{ $feedback->rating }}</td>
-                            <td>{{ $feedback->comment }}</td>
-                            <td>{{ $feedback->codfilial }}</td>
+                            <td>{{ ucfirst(strtolower($feedback->comment)) }}</td>
+                            <td>{{  ucwords(strtolower($feedback->filial->branch ?? 'Sem Filial')) }}</td>
+                            <td>{{ \Carbon\Carbon::parse($feedback->created_at)->format('d/m/Y') }}</td>
                         </tr>
                     @empty
                         <tr>
+                            <td>Sem dados!</td>
                             <td>Sem dados!</td>
                             <td>Sem dados!</td>
                             <td>Sem dados!</td>

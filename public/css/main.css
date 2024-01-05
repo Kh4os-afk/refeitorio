@@ -13554,7 +13554,7 @@ be a descendant of the grid when it is being dragged.
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  background-color: #e2192e;
+  background-color: #2a3049;
   z-index: 1030;
   padding-right: 15px;
 }
@@ -13604,7 +13604,7 @@ be a descendant of the grid when it is being dragged.
     flex: 0 0 auto;
     display: block;
     width: 230px;
-    background-color: #c10013;
+    background-color: #2a3049;
   }
 }
 
@@ -13643,7 +13643,7 @@ be a descendant of the grid when it is being dragged.
 
 .app-sidebar__toggle:focus, .app-sidebar__toggle:hover {
   color: #fff;
-  background-color:#c10013;
+  background-color:#2a3049;
   text-decoration: none;
 }
 
@@ -13902,7 +13902,7 @@ be a descendant of the grid when it is being dragged.
 
 .app-menu__item.active, .app-menu__item:hover, .app-menu__item:focus {
   background: #0d1214;
-  border-left-color: #e2192e;
+  border-left-color: #2a3049;
   text-decoration: none;
   color: #fff;
 }
@@ -13922,7 +13922,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .treeview.is-expanded [data-toggle='treeview'] {
-  border-left-color: #e2192e;
+  border-left-color: #2a3049;
   background: #0d1214;
 }
 
@@ -14539,7 +14539,7 @@ be a descendant of the grid when it is being dragged.
 }
 
 .material-half-bg .cover {
-  background-color: #e2192e;
+  background-color: #2a3049;
   height: 50vh;
 }
 

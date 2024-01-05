@@ -18,8 +18,10 @@
 </head>
 <body class="app sidebar-mini rtl pace-done sidenav-toggled">
 <!-- Navbar-->
-<header class="app-header"><a class="app-header__logo" href="{{ route('index') }}">Refeitorio</a>
-    <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+<header class="app-header">
+    <!-- Sidebar toggle button-->
+    <a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+    <a class="app-header__logo text-left" href="{{ route('index') }}">Refeitorio</a>
     <!-- Navbar Right Menu-->
     <ul class="app-nav">
         <!-- User Menu-->
@@ -41,7 +43,10 @@
             <a class="app-menu__item" href="{{ route('dashboard') }}"><i class="app-menu__icon fa fa-th-list"></i><span class="app-menu__label">Dashboard</span></a>
         </li>
         <li>
-            <a class="app-menu__item" href="{{ route('qrcode') }}"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Gerar QRCodes</span></a>
+            <a class="app-menu__item" href="{{ route('qrcode') }}"><i class="app-menu__icon fa fa-qrcode"></i><span class="app-menu__label">Gerar QRCodes</span></a>
+        </li>
+        <li>
+            <a class="app-menu__item" href="{{ route('branches') }}"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Gerar QRCodes</span></a>
         </li>
     </ul>
 </aside>

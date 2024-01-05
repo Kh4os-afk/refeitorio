@@ -19,6 +19,7 @@ Route::get('/{filial?}', \App\Livewire\Feedback::class)->where('filial', '\d*')-
 Route::middleware('auth')->group(function () {
     Route::get('/dashboard', \App\Livewire\Dashboard::class)->name('dashboard');
     Route::get('/qrcode', \App\Livewire\QRCode::class)->name('qrcode');
+    Route::get('/branches', \App\Livewire\Branches::class)->name('branches');
     Route::get('/logout', function () {
         auth()->logout();
         return redirect()->route('index');
